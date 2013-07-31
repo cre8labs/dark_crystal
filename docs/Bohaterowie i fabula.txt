@@ -1,0 +1,34 @@
+Imie:  Thalien
+Rasa: Elf
+Plec: Kobieta
+Opis: Thalien nale¿y do elitarnych elfickich oddzialow Gwardii Elswyr, zosta³a wyslana przez krolowa aby zdobyc krysztal Barkh, wlada dwoma lekkimi mieczami.
+Umiejetnosci:+1 do poruszania siê po lasach i bagnach, -1 do poruszania siê po drogach i równinach (Elfy nie lubia otwartej przestrzeni, ale sa bardzo zwinne i wy¿sze od ludzi.).
+
+Imie: Gromir
+Rasa: Krasnolud
+Plec: Mezczyzna
+Opis: Gromir jest synem Gimliego, glowa jednego z najbardziej licz¹cych siê wysokich rodow, oraz cz³onkiem krasnoludzkiej wyprawy po krysztal Barkh. Wlada ciê¿kim mlotem.
+Umiejetnosci: +2 Do poruszania siê po gorach, -1 do poruszania siê po bagnach. (Krasnoludy mieszkaj¹ w gorach i maja wprawe w poruszaniu siê po nich, sa jednak bardzo niskie)
+
+Imie: Abigail
+Rasa: Hobbit
+Plec: Kobieta
+Opis: Abigail jest mloda podrozniczka, wedrojac po roznych miastach, zaszlyszala pog³oski o wielkim skarbie, wœród którego jest krysztal Barkh, wyruszyla wiec po ten skarb. Wlada krótkim lukiem.
+Umiejetnosci: +1 do poruszania siê po drogach i równinach, -1 do poruszania siê po gorach i lasach. (Hobbici dziêki swoim pieœniom, kucom itp. Potrafi¹ w miare szybko poruszaæ siê po plaskiej przestrzeni, sa jednak bardzo niskie)
+
+Imie:  Arnon
+Rasa: Czlowiek
+Opis: Arnon wraz z grupa wjskowych wyruszyl z rozkazu generala na twierdze Nukhtar, w którym znajduje siê krysztal Barkh. Wlada mieczem i tarcza.
+Umiejetnosci: Brak (Ludzie sa najbardziej standardowa rasa)
+
+
+Imie: Bardhur
+Rasa: Ork
+Opis: Bardhur przewodzi orczemu plemieniu, zbuntowanemu przeciw hersztowi orkow,  zemœcie wyruszyl po najwiêkszy orczy skarb: krysztal Barkh. Wlada ciê¿kim toporem i tarcza.
+Umiejetnosci: +1 do poruszania siê po drogach, równinach i bagnach, -1 Do poruszania siê po gorach, -2 do poruszania siê po lasach. (Orkowie sa wielcy i szybcy, ale wyj¹tkowo ma³o zwinni)
+
+Fabula: W orczej twierdzy Nukhtar odnaleziono prastary krysztal Barkh, w³aœcicielowi daje on 
+ogromna moc, dziêki której moglby nawet zawladnac wszystkimi rasami, 
+cale masy wszelkiej masci podroznikow, wojownikow itp. Zbieraja siê teraz, 
+by zdobyc ten krysztal. 
+
