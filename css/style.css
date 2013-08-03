@@ -39,7 +39,6 @@ html, body {
     border: 1px solid aliceblue;
     height: 130px;
     width: 100px;
-    box-sizing: content-box;
 }
 
 #mapa li:last-of-type {
@@ -107,7 +106,6 @@ html, body {
     float: left;
     border: 1px solid aliceblue;
     height: 100%;
-    box-sizing: content-box;
 }
 
 #gracze li:last-child {
