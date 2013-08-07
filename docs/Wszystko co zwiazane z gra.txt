@@ -1,39 +1,39 @@
-Imie:  Thalien
+ï»¿Imie:  Thalien
 Rasa: Elf
 Plec: Kobieta
-Opis: Thalien nale¿y do elitarnych elfickich oddzialow Gwardii Elswyr, zosta³a wyslana przez krolowa aby zdobyc krysztal Barkh, wlada dwoma lekkimi mieczami.
-Umiejetnosci:+1 do poruszania siê po lasach i bagnach, -1 do poruszania siê po drogach i równinach (Elfy nie lubia otwartej przestrzeni, ale sa bardzo zwinne i wy¿sze od ludzi.).
+Opis: Thalien naleÅ¼y do elitarnych elfickich oddzialow Gwardii Elswyr, zostaÅ‚a wyslana przez krolowa aby zdobyc krysztal Barkh, wlada dwoma lekkimi mieczami.
+Umiejetnosci:+1 do poruszania siÄ™ po lasach i bagnach, -1 do poruszania siÄ™ po drogach i rÃ³wninach (Elfy nie lubia otwartej przestrzeni, ale sa bardzo zwinne i wyÅ¼sze od ludzi.).
 Zdjecie: Elf Women.jpg
 
 Imie: Gromir
 Rasa: Krasnolud
 Plec: Mezczyzna
-Opis: Gromir jest synem Gimliego, glowa jednego z najbardziej licz¹cych siê wysokich rodow, oraz cz³onkiem krasnoludzkiej wyprawy po krysztal Barkh. Wlada ciê¿kim mlotem.
-Umiejetnosci: +2 Do poruszania siê po gorach, -1 do poruszania siê po bagnach. (Krasnoludy mieszkaj¹ w gorach i maja wprawe w poruszaniu siê po nich, sa jednak bardzo niskie)
+Opis: Gromir jest synem Gimliego, glowa jednego z najbardziej liczÄ…cych siÄ™ wysokich rodow, oraz czÅ‚onkiem krasnoludzkiej wyprawy po krysztal Barkh. Wlada ciÄ™Å¼kim mlotem.
+Umiejetnosci: +2 Do poruszania siÄ™ po gorach, -1 do poruszania siÄ™ po bagnach. (Krasnoludy mieszkajÄ… w gorach i maja wprawe w poruszaniu siÄ™ po nich, sa jednak bardzo niskie)
 Zdjecie: Dwarf Men.jpg
 
 Imie: Abigail
 Rasa: Hobbit
 Plec: Kobieta
-Opis: Abigail jest mloda podrozniczka, wedrojac po roznych miastach, zaszlyszala pog³oski o wielkim skarbie, wœród którego jest krysztal Barkh, wyruszyla wiec po ten skarb. Wlada krótkim lukiem.
-Umiejetnosci: +1 do poruszania siê po drogach i równinach, -1 do poruszania siê po gorach i lasach. (Hobbici dziêki swoim pieœniom, kucom itp. Potrafi¹ w miare szybko poruszaæ siê po plaskiej przestrzeni, sa jednak bardzo niskie)
+Opis: Abigail jest mloda podrozniczka, wedrojac po roznych miastach, zaszlyszala pogÅ‚oski o wielkim skarbie, wÅ›rÃ³d ktÃ³rego jest krysztal Barkh, wyruszyla wiec po ten skarb. Wlada krÃ³tkim lukiem.
+Umiejetnosci: +1 do poruszania siÄ™ po drogach i rÃ³wninach, -1 do poruszania siÄ™ po gorach i lasach. (Hobbici dziÄ™ki swoim pieÅ›niom, kucom itp. PotrafiÄ… w miare szybko poruszaÄ‡ siÄ™ po plaskiej przestrzeni, sa jednak bardzo niskie)
 Zdjecie: Hobbit.jpg
 
 Imie:  Arnon
 Rasa: Czlowiek
-Opis: Arnon wraz z grupa wjskowych wyruszyl z rozkazu generala na twierdze Nukhtar, w którym znajduje siê krysztal Barkh. Wlada mieczem i tarcza.
+Opis: Arnon wraz z grupa wjskowych wyruszyl z rozkazu generala na twierdze Nukhtar, w ktÃ³rym znajduje siÄ™ krysztal Barkh. Wlada mieczem i tarcza.
 Umiejetnosci: Brak (Ludzie sa najbardziej standardowa rasa)
 Zdjecie: Human Men.jpg
 
 Imie: Bardhur
 Rasa: Ork
-Opis: Bardhur przewodzi orczemu plemieniu, zbuntowanemu przeciw hersztowi orkow,  zemœcie wyruszyl po najwiêkszy orczy skarb: krysztal Barkh. Wlada ciê¿kim toporem i tarcza.
-Umiejetnosci: +1 do poruszania siê po drogach, równinach i bagnach, -1 Do poruszania siê po gorach, -2 do poruszania siê po lasach. (Orkowie sa wielcy i szybcy, ale wyj¹tkowo ma³o zwinni)
+Opis: Bardhur przewodzi orczemu plemieniu, zbuntowanemu przeciw hersztowi orkow,  zemÅ›cie wyruszyl po najwiÄ™kszy orczy skarb: krysztal Barkh. Wlada ciÄ™Å¼kim toporem i tarcza.
+Umiejetnosci: +1 do poruszania siÄ™ po drogach, rÃ³wninach i bagnach, -1 Do poruszania siÄ™ po gorach, -2 do poruszania siÄ™ po lasach. (Orkowie sa wielcy i szybcy, ale wyjÄ…tkowo maÅ‚o zwinni)
 Zdjecie:Orc Men.jpg
 
-Fabula: W orczej twierdzy Nukhtar odnaleziono prastary krysztal Barkh, w³aœcicielowi daje on 
-ogromna moc, dziêki której moglby nawet zawladnac wszystkimi rasami, 
-cale masy wszelkiej masci podroznikow, wojownikow itp. Zbieraja siê teraz, 
+Fabula: W orczej twierdzy Nukhtar odnaleziono prastary krysztal Barkh, wÅ‚aÅ›cicielowi daje on 
+ogromna moc, dziÄ™ki ktÃ³rej moglby nawet zawladnac wszystkimi rasami, 
+cale masy wszelkiej masci podroznikow, wojownikow itp. Zbieraja siÄ™ teraz, 
 by zdobyc ten krysztal. 
 
 Rasy:
