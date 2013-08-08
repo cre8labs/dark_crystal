@@ -10,5 +10,8 @@ $(document).ready(function($) {
         engine.pola.push(_.shuffle(engine.polaStandardowe)[0]);
     }
 
+    plansza.$mapa = $('#mapa');
+    plansza.rysujPlansze(engine.pola);
+
 
 });
