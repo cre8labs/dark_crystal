@@ -52,6 +52,9 @@ var engine = {
 
         this.tura += 1;
 
+    },
+    dodajGracza: function() {
+        $('dodajGraczaDialog').show();
     }
 
 };

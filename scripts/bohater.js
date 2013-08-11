@@ -1,9 +1,9 @@
-var Bohater = function (imie, wiek, plec, zdj) {
-    this.imie = imie;
-    this.wiek = wiek;
-    this.plec = plec; // kobieta: 'k', mezczyzna: 'm'
-    this.zdjecieSciezka = zdj;
-    this.indexPola = -1;
-
-
+var Bohater = function (dane) {
+    this.imie = dane.imie;
+    this.wiek = dane.wiek;
+    this.plec = dane.plec; // kobieta: 'k', mezczyzna: 'm'
+    this.rasa = dane.rasa;
+    this.opis = dane.opis;
+    this.zdjecie = dane.zdjecie;
+    this.umiejetnosci = dane.umiejetnosci || {};
 };

@@ -3,9 +3,16 @@
 <head>
     <title>Dark Crystal</title>
     <link rel="stylesheet" type="text/css" href="css/style.css" />
+    <link rel="stylesheet" type="text/css" href="scripts/vendor/flipster/jquery.flipster.css" />
+
     <script src="scripts/vendor/jquery.js"></script>
     <script src="scripts/vendor/underscore.js"></script>
+    <script src="scripts/vendor/flipster/jquery.flipster.js"></script>
+
+    <script src="scripts/dane/bohaterzy.js"></script>
+
     <script src="scripts/bohater.js"></script>
+    <script src="scripts/gracz.js"></script>
     <script src="scripts/przygoda.js"></script>
     <script src="scripts/teren.js"></script>
     <script src="scripts/plansza.js"></script>
@@ -41,12 +48,17 @@
     <button id="dodajGracza">Dodaj gracza</button>
 
 
-    <ul id="gracze">
-        <li class="aktywnyGracz">Gracz 1</li>
-        <li>Gracz 2</li>
-        <li>Gracz 3</li>
-    </ul>
+    <ul id="gracze"></ul>
 
+</div>
+
+<div id="dodajGraczaDialog" class="pelnaWielkosc pozycjonowanieAbsolutne" style="">
+    <div class="flipster">
+        <ul id="bohaterzy"></ul>
+    </div>
+    <div class="przyciski">
+        <button class="dodaj">dodaj</button>
+    </div>
 </div>
 
 
