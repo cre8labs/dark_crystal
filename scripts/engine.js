@@ -2,11 +2,12 @@ var engine = {
     tura: 1,
     iloscPolWGrze: 40,
     polaStandardowe: [
-        new Teren('Droga', [2, 6], ''),
-        new Teren('Rownina', [1, 5], ''),
-        new Teren('Gory', [1, 3], ''),
-        new Teren('Las', [1, 4], ''),
-        new Teren('Bagno', [1, 2], '')
+        new Teren('Droga', [1, 6], 'images/teren/droga.png'),
+        new Teren('Rownina', [1, 5], 'images/teren/rownina.png'),
+        new Teren('Gory', [1, 3], 'images/teren/gory.png'),
+        new Teren('Las', [1, 4], 'images/teren/las.png'),
+        new Teren('Bagno', [1, 2], 'images/teren/bagno.png'),
+        new Teren('Rzeka', [1, 3], 'images/teren/rzeka.png')
     ],
     przygodyStandardowe: [
         new Przygoda('Atak wilkow', 'Zaatakowaly Cie wilki, zostales zraniony w noge.', [1, 2]),
@@ -18,6 +19,7 @@ var engine = {
     gracze: [],
     pola: [],
     przygody: [],
+
     losujPrzygodeDlaPola: function(pole) {
         var szansaNaPrzygode = 30,
             przygoda = null;
@@ -26,22 +28,33 @@ var engine = {
         }
         return przygoda;
     },
+
     rzucKoscia: function() {
-        return _.random(1, 5);
+        var liczbaOczek = _.random(1, 6);
+        $('#wynikKostki').html(liczbaOczek);
+        return liczbaOczek;
     },
+
     graj: function() {
-        if(engine.obecnyGracz.indexPola == -1) {
-            console.log('Pierwsza Tura !!!');
-            engine.obecnyGracz.indexPola += this.rzucKoscia(5);
-        } else {
-            console.log('Kolejna Tura: ', this.tura);
+        var pole, przygoda, indexPola, oczkaKostki;
+        console.log('Tura: ' + this.tura);
+        oczkaKostki = this.rzucKoscia();
+        indexPola = engine.obecnyGracz.indexPola + oczkaKostki;
+        if(indexPola > (this.pola.length - 1)) {
+            alert(engine.obecnyGracz.imie + " rzuciles za duzo koscia!\nTracisz ture.");
+            return;
         }
-        var pole = this.pola[engine.obecnyGracz.indexPola];
-        var przygoda = this.losujPrzygodeDlaPola(pole);
+        engine.obecnyGracz.indexPola = indexPola;
+        pole = this.pola[engine.obecnyGracz.indexPola];
+        plansza.ustawGraczaNaPolu(engine.obecnyGracz, indexPola);
+        if (indexPola == (this.pola.length - 1)) {
+            alert(engine.obecnyGracz.imie + " - WYGRALES!");
+        }
+        przygoda = this.losujPrzygodeDlaPola(pole);
         console.log(this.obecnyGracz, pole, przygoda);
         return [pole, przygoda];
-
     },
+
     nastepnaTura: function() {
         var engine = this;
         this.gracze.forEach(function(gracz) {
@@ -51,10 +64,12 @@ var engine = {
         });
 
         this.tura += 1;
+        $('#tura').html('Tura: ' + this.tura);
 
     },
+
     dodajGracza: function() {
         $('dodajGraczaDialog').show();
     }
 
-};
+}; 

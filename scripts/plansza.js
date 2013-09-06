@@ -6,17 +6,19 @@ var plansza = {
             iloscPol = polaGry.length;
 
         // czyscimy mape oraz powiazane grafiki pól z realnymi danymi z listy pól
-        this.pola = {};
+        this.$pola = [];
         this.$mapa.empty();
 
         // iteracja poprzez tablice pol
         for(index; index < iloscPol; index++) {
-          // dodajemy pole po polu do mapy
-          this.dodajTerenDoPlanszy(polaGry[index]);
+            // dodajemy pole po polu do mapy
+            this.$pola.push(this.dodajTerenDoPlanszy(polaGry[index]));
         }
     },
     dodajTerenDoPlanszy: function(pole) {
-        console.log('dodajTerenDoPlanszy', pole);
-        $('<li>' + pole.nazwa + '</li>').appendTo(this.$mapa);
+        return $('<li></li>').css('backgroundImage', 'url(' + pole.grafikaSciezka + ')').appendTo(this.$mapa);
+    },
+    ustawGraczaNaPolu: function(gracz, indexPola) {
+        gracz.pionek.appendTo(this.$pola[indexPola]);
     }
 };

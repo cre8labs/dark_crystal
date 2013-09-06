@@ -3,4 +3,4 @@ var Przygoda = function(nazwa, opis, modyfikatorZakresuRuchu) {
     this.opis = '';
     this.modyfikatorZakresuRuchu = modyfikatorZakresuRuchu;
 
-}
+};
