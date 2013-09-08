@@ -17,20 +17,30 @@ Server is based on NodeJS.
 2. Once XCode is installed open it and install component: "Command Line Tools"
 3. Install [Homebrew](http://brew.sh/)
 4. Once homebrew (brew) is installed:
-    brew install node
-    npm install -g yo
-    npm install -g generator-angular
+```Shell
+brew install node
+npm install -g yo
+npm install -g generator-angular
+```
 5. Install RVM & Ruby using [GUI](http://jewelrybox.unfiniti.com/) or shell:
-    curl -L https://get.rvm.io | bash -s stable --ruby
+```Shell
+curl -L https://get.rvm.io | bash -s stable --ruby
+```
 6. Clone this repository
 7. Navigate to the folder using terminal and install Ruby Gems into created gemset:
-    cd PATH_TO_PROJECT
-    bundle
+```Shell
+cd PATH_TO_PROJECT
+bundle
+```
 8. Install all of the necessary 3rd party modules
-    npm install
-    bower install
+```Shell
+npm install
+bower install
+```
 9. Start server
-    grunt server
+```Shell
+grunt server
+```
 10. Enjoy!
 
 ## Technology stack
