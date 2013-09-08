@@ -1,7 +1,7 @@
 {
     "name": "Fire",
     "description": "",
-    "image": "/resources/elements/fire.jpg",
+    "image": "resources/elements/fire.jpg",
     "skills": {
         "movement": {
             "forest": 1

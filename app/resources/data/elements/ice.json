@@ -1,7 +1,7 @@
 {
-    "name": "Water",
+    "name": "Ice",
     "description": "",
-    "image": "/resources/elements/water.jpg",
+    "image": "resources/elements/ice.jpg",
     "skills": {
         "movement": {
             "forest": 1

@@ -2,31 +2,31 @@
     {
         "name": "Earth",
         "id": "earth",
-        "image": "/resources/elements/earth.jpg"
+        "image": "resources/elements/earth.jpg"
     },
     {
         "name": "Fire",
         "id": "fire",
-        "image": "/resources/elements/fire2.jpg"
+        "image": "resources/elements/fire2.jpg"
     },
     {
         "name": "Ghost",
         "id": "ghost",
-        "image": "/resources/elements/ghost2.jpg"
+        "image": "resources/elements/ghost2.jpg"
     },
     {
         "name": "Ice",
         "id": "ice",
-        "image": "/resources/elements/ice.jpg"
+        "image": "resources/elements/ice.jpg"
     },
     {
         "name": "Metal",
         "id": "metal",
-        "image": "/resources/elements/metal.jpg"
+        "image": "resources/elements/metal.jpg"
     },
     {
         "name": "Water",
         "id": "water",
-        "image": "/resources/elements/water.jpg"
+        "image": "resources/elements/water.jpg"
     }
 ]
