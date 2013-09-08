@@ -21,8 +21,9 @@ angular.module('darkCrystalApp', ['ui.bootstrap', 'ngResource'])
         templateUrl: 'views/players.html'
         controller: 'PlayersCtrl'
         resolve:
-          elements: (MultiElementLoader) ->
+          elements: ['MultiElementLoader', (MultiElementLoader) ->
             MultiElementLoader()
+          ]
       .when '/board',
         templateUrl: 'views/board.html',
         controller: 'BoardCtrl'
