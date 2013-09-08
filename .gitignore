@@ -1,1 +1,7 @@
 .idea/
+.bower.json
+.jshintrc
+.npmignore
+*.scssc
+bower_components/bootstrap-sass
+.tmp
