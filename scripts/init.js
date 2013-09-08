@@ -12,7 +12,7 @@ $(document).ready(function($) {
     });
 
     _.each(bohaterzy, function(bohater, index) {
-        $('<li data-index_bohatera="' + index + '"><div class="imie">' + bohater.imie + '</div><div class="rasa">' + bohater.rasa + '</div><div class="plec plec_' + bohater.plec + '"></div><div class="wiek">' + bohater.wiek + '</div><div class="opis">' + bohater.opis + '</div><div class="zdjecie"><img width="327" height="900" src="images/bohaterzy/' + bohater.zdjecie + '" /></div></li>').appendTo($bohaterzy);
+        $('<li data-index_bohatera="' + index + '"><div class="imie">' + bohater.imie + '</div><div class="opis">' + bohater.opis + '</div><div class="zdjecie"><img width="327" height="900" src="images/bohaterzy/' + bohater.zdjecie + '" /></div></li>').appendTo($bohaterzy);
     });
     $flipster = $('.flipster').flipster();
 
