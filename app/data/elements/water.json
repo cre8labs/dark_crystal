@@ -1,0 +1,10 @@
+{
+    "name": "Water",
+    "description": "",
+    "image": "images/elements/water.jpg",
+    "skills": {
+        "movement": {
+            "forest": 1
+        }
+    }
+}

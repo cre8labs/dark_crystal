@@ -1,0 +1,10 @@
+{
+    "name": "Earth",
+    "description": "",
+    "image": "images/elements/earth.jpg",
+    "skills": {
+        "movement": {
+            "forest": 1
+        }
+    }
+}

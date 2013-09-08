@@ -1,0 +1,32 @@
+[
+    {
+        "name": "Earth",
+        "id": "earth",
+        "image": "images/elements/earth.jpg"
+    },
+    {
+        "name": "Fire",
+        "id": "fire",
+        "image": "images/elements/fire2.jpg"
+    },
+    {
+        "name": "Ghost",
+        "id": "ghost",
+        "image": "images/elements/ghost2.jpg"
+    },
+    {
+        "name": "Ice",
+        "id": "ice",
+        "image": "images/elements/ice.jpg"
+    },
+    {
+        "name": "Metal",
+        "id": "metal",
+        "image": "images/elements/metal.jpg"
+    },
+    {
+        "name": "Water",
+        "id": "water",
+        "image": "images/elements/water.jpg"
+    }
+]

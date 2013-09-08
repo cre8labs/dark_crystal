@@ -1,15 +1,26 @@
 ## Dark Crystal
 
-Ekrany:
-1. Wybor graczy
-2. Gra zasadnicza
-3. Wynik gry
+It's a board game.
+
+This version (branch) is using AngularJS as a JavaScript framework.
+Server is based on NodeJS.
 
 
-Etapy gry:
-1. Ruch (lub jego brak)
-2. Rozpatrywanie zdarzenia
-3. Koniec tury gracza ( nastepny gracz )
+( this is still under heavy development )
+
+
+## Technology stack
+
+* JavaScript
+* CoffeeScript
+* SCSS
+* AngularJS Framework
+* NodeJS
+* Ruby (RVM) - used by Compass
+* Yeoman
+* Grunt
+* Bower
+* Twitter Bootstrap
 
 
 ## License
