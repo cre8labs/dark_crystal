@@ -23,13 +23,11 @@ brew install node
 npm install -g yo
 npm install -g generator-angular
 ```
-
 5. Install RVM & Ruby using [GUI](http://jewelrybox.unfiniti.com/) or :
 
 ```
 curl -L https://get.rvm.io | bash -s stable --ruby
 ```
-
 6. Clone this repository
 7. Navigate to the folder using terminal and install Ruby Gems into created gemset:
 
@@ -37,20 +35,17 @@ curl -L https://get.rvm.io | bash -s stable --ruby
 cd PATH_TO_PROJECT
 bundle
 ```
-
 8. Install all of the necessary 3rd party modules
 
 ```
 npm install
 bower install
 ```
-
 9. Start server
 
 ```
 grunt server
 ```
-
 10. Enjoy!
 
 ## Technology stack
