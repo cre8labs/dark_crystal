@@ -7,7 +7,6 @@ angular.module('darkCrystalApp')
     $scope.fields = Board.fields
 
     $scope.generate = ->
-      console.log 'generate() called'
       Board.generate $scope.numberOfFields
       $scope.fields = Board.fields
 
