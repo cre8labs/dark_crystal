@@ -1,5 +1,10 @@
 [
     {
+        "name": "Air",
+        "id": "air",
+        "image": "resources/elements/air.jpg"
+    },
+    {
         "name": "Earth",
         "id": "earth",
         "image": "resources/elements/earth.jpg"
@@ -12,7 +17,7 @@
     {
         "name": "Ghost",
         "id": "ghost",
-        "image": "resources/elements/ghost2.jpg"
+        "image": "resources/elements/ghost.jpg"
     },
     {
         "name": "Ice",

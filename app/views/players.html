@@ -29,17 +29,14 @@
     </div>
 
     <div class="span4">
-                <div class="input-group" ng-repeat="player in players">
-                    <!--<span class="input-group-addon">-->
-                        <!--<input ng-model="player.human" type="checkbox">-->
-                    <!--</span>-->
-                    <div class="btn-group">
-                        <button type="button" class="btn btn-primary" ng-model="player.human" btn-radio="true">Human</button>
-                        <button type="button" class="btn btn-primary" ng-model="player.human" btn-radio="false">CPU</button>
-                    </div>
-                    <input ng-model="player.name" type="text" class="form-control">
-                    <button class="btn" ng-click="removePlayer($index)"><span class="close"></span></button>
-                </div>
-        <pre>{{ players | json }}</pre>
+        <div class="input-group" ng-repeat="player in players">
+            <div class="btn-group">
+                <button type="button" class="btn btn-primary" ng-model="player.human" btn-radio="true">Human</button>
+                <button type="button" class="btn btn-primary" ng-model="player.human" btn-radio="false">CPU</button>
+            </div>
+            <input ng-model="player.name" type="text" style="width: 120px;">
+            <input ng-model="player.color" type="color"/>
+            <button class="close-inverse" ng-click="removePlayer($index)">&times;</button>
+        </div>
     </div>
 </div>

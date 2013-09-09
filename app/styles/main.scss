@@ -17,6 +17,34 @@ body {
     color: #cccccc;
 }
 
+#players {
+  list-style-type: none;
+  li {
+    clear: left;
+    > div {
+      float: left;
+    }
+    .avatar {
+      width: 33px;
+      height: 90px;
+      img {
+        background-repeat: no-repeat;
+        background-position: center;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+      }
+    }
+    .name {
+      width: 60px;
+    }
+    .field_num {
+      width: 30px;
+    }
+  }
+}
+
 #mapa {
   list-style-type: none;
   background-color: #fffe13;

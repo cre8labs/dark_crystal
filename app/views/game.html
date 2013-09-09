@@ -1,0 +1,28 @@
+<div class="row">
+    <div class="span8">
+        <ul id="mapa">
+            <li ng-repeat="field in fields" data-field-index="{{ $index }}" style="background-image: url({{ field.image }});">
+                <span class="badge badge-inverse">{{ $index +1 }}</span>
+            </li>
+        </ul>
+    </div>
+
+    <div class="span4">
+        <ul id="players" class="list-group">
+            <li ng-repeat="player in players">
+                <div class="avatar"><img ng-src="{{ player.element.image }}" alt="{{ player.name }}"/></div>
+                <div class="name">{{ player.name }}</div>
+                <div class="field_num">No.</div>
+            </li>
+        </ul>
+    </div>
+</div>
+
+<div class="row">
+    <div class="span8">
+        <button class="btn btn-mini" ng-repeat="player in players">{{ player.name }}</button>
+    </div>
+    <div class="span4">
+
+    </div>
+</div>

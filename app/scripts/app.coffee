@@ -27,6 +27,9 @@ angular.module('darkCrystalApp', ['ui.bootstrap', 'ngResource'])
       .when '/board',
         templateUrl: 'views/board.html',
         controller: 'BoardCtrl'
+      .when '/game',
+        templateUrl: 'views/game.html',
+        controller: 'GameCtrl'
       .otherwise
         redirectTo: '/players'
   ]

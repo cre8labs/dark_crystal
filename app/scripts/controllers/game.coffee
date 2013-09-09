@@ -1,12 +1,7 @@
 'use strict'
 
 angular.module('darkCrystalApp')
-  .controller 'GameCtrl', ['$scope', ($scope) ->
-    $scope.isCollapsed = false
-    $scope.radioModel = 'Middle'
-
-
-
-
-    $scope.dynamic = Math.floor((Math.random()*100)+1)
+  .controller 'GameCtrl', ['$scope', 'Board', 'Players', ($scope, Board, Players) ->
+    $scope.fields = Board.fields
+    $scope.players = Players.all()
   ]
