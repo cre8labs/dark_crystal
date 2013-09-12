@@ -30,6 +30,11 @@
         "image": "resources/elements/metal.jpg"
     },
     {
+        "name": "Tree",
+        "id": "tree",
+        "image": "resources/elements/tree.jpg"
+    },
+    {
         "name": "Water",
         "id": "water",
         "image": "resources/elements/water.jpg"
