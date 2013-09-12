@@ -1,7 +1,7 @@
 'use strict';
 
 angular.module('darkCrystalApp')
-  .service 'Board', () ->
+  .service 'Board', [() ->
     fieldTypes = [
       title: 'Road'
       moveRange: [1, 6]
@@ -31,7 +31,8 @@ angular.module('darkCrystalApp')
     fields: []
     generate: (numberOfFields = 35) ->
       @fields = []
-      @fields.push(fieldTypes.shuffle()[0]) for n in [0...numberOfFields]
+      @fields.push(angular.extend(fieldTypes.shuffle()[0], index: n)) for n in [0...numberOfFields]
     getFields: ->
       @fields
 
+  ]

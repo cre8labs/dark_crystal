@@ -6,7 +6,7 @@ do -> Array::shuffle ?= ->
     [@[i], @[j]] = [@[j], @[i]]
   @
 
-angular.module('darkCrystalApp', ['ui.bootstrap', 'ngResource'])
+angular.module('darkCrystalApp', ['ui.bootstrap', 'ngResource', 'ngRoute', 'ngAnimate', 'ngTouch'])
   .config ['$routeProvider', ($routeProvider) ->
     $routeProvider
       .when '/',
