@@ -5,7 +5,7 @@ $iconWhiteSpritePath: "../images/glyphicons-halflings-white.png";
 
 /* Put your CSS here */
 html, body {
-  padding-top: 20px;
+  padding-top: 35px;
   height: 100%;
   box-sizing: border-box;
 }
@@ -96,4 +96,11 @@ body {
     letter-spacing: -1px;
 }
 
+.dice{
+  background: url(../images/dice.png);
+  height: 90px;
+  width: 90px;
+  background-position: -45px -45px;
+  background-repeat: no-repeat;
+}
 

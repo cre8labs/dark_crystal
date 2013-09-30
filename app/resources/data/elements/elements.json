@@ -12,7 +12,7 @@
     {
         "name": "Fire",
         "id": "fire",
-        "image": "resources/elements/fire2.jpg"
+        "image": "resources/elements/fire.jpg"
     },
     {
         "name": "Ghost",

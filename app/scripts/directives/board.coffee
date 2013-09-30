@@ -4,7 +4,7 @@ angular.module('darkCrystalApp')
   .directive 'board', ['Board', (Board) ->
     template: '''
               <ul class="board">
-                <field ng-repeat="field in fields track by $index" data-field-index="{{ $index }}" style="background-image: url({{ field.image }});">
+                <field ng-repeat="field in fields" data-field-index="{{ field.id }}" style="background-image: url({{ field.image }});">
                   <span class="badge badge-inverse pull-right">{{ $index +1 }}</span>
                 </field>
               </ul>
@@ -16,7 +16,7 @@ angular.module('darkCrystalApp')
       $scope.Board = Board
       $scope.fields = Board.fields
 
-      $scope.$watch 'Board.getFields()', (fields) ->
+      $scope.$watch 'Board.fields', (fields) ->
         $scope.fields = fields
 
 

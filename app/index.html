@@ -25,13 +25,12 @@
       <script src="bower_components/json3/lib/json3.min.js"></script>
     <![endif]-->
 
-    <div class="navbar navbar-fixed-top navbar-inverse" ng-controller="TopNavCtrl">
-        <div class="navbar-inner">
+    <nav class="navbar navbar-fixed-top navbar-inverse" ng-controller="TopNavCtrl">
             <div class="container">
 
-                <ul class="nav">
-                    <li class="active">
-                        <a class="brand" ng-href="#" onclick="return false;" ng-click="navTo('/')">Dark Crystal</a>
+                <ul class="nav navbar-nav">
+                    <li>
+                        <a class="navbar-brand" ng-href="#" onclick="return false;" ng-click="navTo('/')">Dark Crystal</a>
                     </li>
                     <li><a ng-href="#" onclick="return false;" ng-click="navTo('players')">Players</a></li>
                     <li><a ng-href="#" onclick="return false;" ng-click="navTo('board')">Board</a></li>
@@ -40,7 +39,7 @@
                     <li><a ng-href="#" onclick="return false;" ng-click="navTo('contact')">Contact</a></li>
                 </ul>
 
-                <ul class="nav pull-right">
+                <ul class="nav navbar-nav navbar-right">
                     <li class="dropdown">
                         <a href="#"
                            class="dropdown-toggle"
@@ -62,8 +61,7 @@
                 </ul>
 
             </div>
-        </div>
-    </div>
+    </nav>
 
 
     <div class="container" ng-view=""></div>
@@ -121,6 +119,9 @@
         <script src="scripts/services/game.js"></script>
         <script src="scripts/directives/board.js"></script>
         <script src="scripts/directives/field.js"></script>
+        <script src="scripts/jquery.rollingdice.js"></script>
+        <script src="scripts/directives/dice.js"></script>
+        <script src="scripts/controllers/dice.js"></script>
         <!-- endbuild -->
 </body>
 </html>
