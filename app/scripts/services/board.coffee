@@ -62,6 +62,18 @@ angular.module('darkCrystalApp')
       title: 'Desert-Quicksand'
       moveRange: [1, 2]
       image: 'resources/fields/desert_quicksand.png'
+    ,
+      title: 'Volcano'
+      moveRange: [1, 2]
+      image: 'resources/fields/volcano.png'
+    ,
+      title: 'Volcano-Lava'
+      moveRange: [1, 2]
+      image: 'resources/fields/volcano_lava.png'
+    ,
+      title: 'Volcano-Sulfur'
+      moveRange: [1, 2]
+      image: 'resources/fields/volcano_sulfur.png'
     ]
 
     fields: []

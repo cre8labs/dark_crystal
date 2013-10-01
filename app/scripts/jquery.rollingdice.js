@@ -165,7 +165,6 @@
             var element = $(this);
             if(element.data('rollingDice')) return;
             var rollingDice = new RollingDice(this, options);
-            console.log(rollingDice);
             element.data('rollingDice', rollingDice);
         });
     };
