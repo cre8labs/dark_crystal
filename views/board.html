@@ -1,13 +1,12 @@
-<div class="span12">
-    <ul id="mapa">
-        <li ng-repeat="field in fields" style="background-image: url({{ field.image }})"></li>
-    </ul>
-
-</div>
-
 <div class="row">
-    <div class="span2"><input ng-model="numberOfFields" type="number" placeholder="Number of fields"></div>
-</div>
-<div class="span2">
-    <button class="btn btn-primary" ng-click="generate()">Generate Map</button>
+    <div class="col-md-8">
+        <board></board>
+    </div>
+    <div class="col-md-2">
+        <input ng-model="numberOfFields" type="number" style="width: 100%" placeholder="Number of fields">
+    </div>
+    <div class="col-md-2">
+        <button class="btn btn-primary" ng-click="generate()">Generate Fields</button>
+    </div>
+
 </div>

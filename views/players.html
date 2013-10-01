@@ -1,5 +1,5 @@
 <div class="row">
-    <div class="span8">
+    <div class="col-md-8">
         <carousel interval="myInterval">
             <slide ng-repeat="slide in slides" active="slide.active">
                 <img ng-src="{{slide.image}}" style="margin:auto">
@@ -8,17 +8,17 @@
                     <h4>{{slide.text}}</h4>
 
                     <p class="pull-right">
-                        <button type="button" ng-click="addPlayer($index)" class="btn btn-large btn-primary"><span class="glyphicon glyphicon-ok-circle"></span>Add Player
+                        <button type="button" ng-click="addPlayer($index)" class="btn btn-lg btn-primary"><span class="glyphicon glyphicon-ok-circle"></span>Add Player
                         </button>
                     </p>
                 </div>
             </slide>
         </carousel>
         <div class="row-fluid">
-            <div class="span12">
+            <div class="col-md-12">
                 <ul id="elements_mini_btns">
                     <li ng-repeat="slide in slides">
-                        <button class="btn btn-mini" ng-class="{'btn-info': !slide.active, 'btn-warning': slide.active}" ng-click="slide.active = true">{{slide.text}}
+                        <button class="btn btn-xs" ng-class="{'btn-info': !slide.active, 'btn-warning': slide.active}" ng-click="slide.active = true">{{slide.text}}
                         </button>
                     </li>
                 </ul>
@@ -26,18 +26,15 @@
         </div>
     </div>
 
-    <div class="span4">
-                <div class="input-group" ng-repeat="player in players">
-                    <!--<span class="input-group-addon">-->
-                        <!--<input ng-model="player.human" type="checkbox">-->
-                    <!--</span>-->
-                    <div class="btn-group">
-                        <button type="button" class="btn btn-primary" ng-model="player.human" btn-radio="true">Human</button>
-                        <button type="button" class="btn btn-primary" ng-model="player.human" btn-radio="false">CPU</button>
-                    </div>
-                    <input ng-model="player.name" type="text" class="form-control">
-                    <button class="btn" ng-click="removePlayer($index)"><span class="close"></span></button>
-                </div>
-        <pre>{{ players | json }}</pre>
+    <div class="col-md-4">
+        <div class="input-group" ng-repeat="player in players">
+            <div class="btn-group">
+                <button type="button" class="btn btn-default btn-primary" ng-model="player.human" btn-radio="true">Human</button>
+                <button type="button" class="btn btn-default btn-primary" ng-model="player.human" btn-radio="false">CPU</button>
+            </div>
+            <input ng-model="player.name" type="text" style="width: 120px">
+            <input ng-model="player.color" type="color">
+            <button class="close-inverse" ng-click="removePlayer($index)">&times;</button>
+        </div>
     </div>
 </div>

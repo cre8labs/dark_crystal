@@ -11,7 +11,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
     <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
 
-        <link rel="stylesheet" href="styles/5bb9c08b.main.css">
+        <link rel="stylesheet" href="styles/ff59f908.main.css">
 </head>
   <body ng-app="darkCrystalApp">
     <!--[if lt IE 7]>
@@ -23,21 +23,21 @@
       <script src="bower_components/json3/lib/json3.min.js"></script>
     <![endif]-->
 
-    <div class="navbar navbar-fixed-top navbar-inverse" ng-controller="TopNavCtrl">
-        <div class="navbar-inner">
+    <nav class="navbar navbar-fixed-top navbar-inverse" ng-controller="TopNavCtrl">
             <div class="container">
 
-                <ul class="nav">
-                    <li class="active">
-                        <a class="brand" ng-href="#" onclick="return false" ng-click="navTo('/')">Dark Crystal</a>
+                <ul class="nav navbar-nav">
+                    <li>
+                        <a class="navbar-brand" ng-href="#" onclick="return false" ng-click="navTo('/')">Dark Crystal</a>
                     </li>
                     <li><a ng-href="#" onclick="return false" ng-click="navTo('players')">Players</a></li>
                     <li><a ng-href="#" onclick="return false" ng-click="navTo('board')">Board</a></li>
+                    <li><a ng-href="#" onclick="return false" ng-click="navTo('game')">Game</a></li>
                     <li><a ng-href="#" onclick="return false" ng-click="navTo('about')">About</a></li>
                     <li><a ng-href="#" onclick="return false" ng-click="navTo('contact')">Contact</a></li>
                 </ul>
 
-                <ul class="nav pull-right">
+                <ul class="nav navbar-nav navbar-right">
                     <li class="dropdown">
                         <a href="#" class="dropdown-toggle" data-toggle="dropdown">
                             Social
@@ -57,8 +57,7 @@
                 </ul>
 
             </div>
-        </div>
-    </div>
+    </nav>
 
 
     <div class="container" ng-view=""></div>
@@ -75,12 +74,12 @@
     </script>
 
     <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
-    <script src="//ajax.googleapis.com/ajax/libs/angularjs/1.0.7/angular.min.js"></script>
+    <script src="bower_components/angular/angular.js"></script>
 
-        <script src="scripts/76c21dca.plugins.js"></script>
+        <script src="scripts/07c00745.plugins.js"></script>
 
-        <script src="scripts/af225e74.modules.js"></script>
+        <script src="scripts/36c844e5.modules.js"></script>
 
-        <script src="scripts/ad3e90fd.scripts.js"></script>
+        <script src="scripts/30f381ed.scripts.js"></script>
 </body>
 </html>

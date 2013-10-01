@@ -1,7 +1,7 @@
 {
     "name": "Ghost",
     "description": "",
-    "image": "resources/elements/ghost2.jpg",
+    "image": "resources/elements/ghost.jpg",
     "skills": {
         "movement": {
             "forest": 1

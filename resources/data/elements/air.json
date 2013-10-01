@@ -1,0 +1,10 @@
+{
+    "name": "Air",
+    "description": "",
+    "image": "resources/elements/air.jpg",
+    "skills": {
+        "movement": {
+            "forest": 1
+        }
+    }
+}
