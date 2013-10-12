@@ -74,6 +74,10 @@ angular.module('darkCrystalApp')
       title: 'Volcano-Sulfur'
       moveRange: [1, 2]
       image: 'resources/fields/volcano_sulfur.png'
+    ,
+      title: 'Drought'
+      moveRange: [1, 2]
+      image: 'resources/fields/drought.png'
     ]
 
     fields: []
